@@ -1,0 +1,42 @@
+.env# Bytecode + caches
+__pycache__/
+*.py[cod]
+
+# Environment & config
+.env
+*.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# VS Code or PyCharm settings
+.vscode/
+.idea/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Data files
+Data/raw/
+Data/processed/
+
+# Output from SQL queries
+output/
+
+# Log or temp files
+*.log
+*.tmp
+
+# Database dumps
+*.sql
+
+# Flask cache (future use)
+instance/
+*.db
+*.sqlite*
